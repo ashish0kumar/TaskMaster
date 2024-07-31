@@ -1,8 +1,10 @@
+import ProjectSidebar from "./components/ProjectsSidebar";
+
 function App() {
   return (
-    <>
-      <h1 className="my-8 text-center text-5xl font-bold">TaskMaster</h1>
-    </>
+    <main>
+      <ProjectSidebar />
+    </main>
   );
 }
 
