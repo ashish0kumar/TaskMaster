@@ -22,7 +22,7 @@ export default function NewTask({ onAdd }) {
                 value={enteredTask}
             />
             <button
-                className="text-stone-700 hover:text-stone-950"
+                className="px-4 py-1.5 rounded-md font-semibold bg-stone-800 text-stone-50 hover:bg-stone-950"
                 onClick={handlClick}
             >
                 Add Task
